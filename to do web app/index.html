@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task Maker</title>
+    <link rel="stylesheet" href="./index.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <h1>Task Maker</h1>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Features</a></li>
+                <li><a href="#">Login</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section class="hero">
+        <div class="hero-content">
+            <h2>Organize Your Tasks Effortlessly</h2>
+            <p>Create, manage, and track your tasks with ease.</p>
+        </div>
+    </section>
+    <section class="features">
+        <h2>Features</h2>
+        <div class="feature-list">
+            <div class="feature">
+                <h3>Create Tasks</h3>
+                <p>Add new tasks and organize your day efficiently.</p>
+            </div>
+            <div class="feature">
+                <h3>Track Progress</h3>
+                <p>Monitor your task progress in real-time.</p>
+            </div>
+            <div class="feature">
+                <h3>Complete Tasks</h3>
+                <p>Mark tasks as complete and celebrate your achievements.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="task-section">
+        <h2>Your Tasks</h2>
+        <div class="task-form">
+            <input type="text" id="taskInput" placeholder="Enter your task">
+            <button onclick="addTask()">Add Task</button>
+        </div>
+        <ul id="taskList"></ul>
+    </section>
+
+    <script src="./index.js"></script>
+</body>
+</html>
